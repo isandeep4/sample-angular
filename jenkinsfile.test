@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Node Modules'){
             steps{
-                bat 'np install'
+                bat 'npm install'
             }
         }
         stage('Build'){
